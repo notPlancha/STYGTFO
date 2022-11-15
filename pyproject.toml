@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "stygtfo"
+version = "0.1.0"
+description = ""
+authors = ["notPlancha <andre.plancha@hotmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+diff-pdf-visually = "^1.7.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+stygtfo = "stygtfo:main"
