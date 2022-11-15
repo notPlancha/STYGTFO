@@ -1,9 +1,10 @@
 [tool.poetry]
 name = "stygtfo"
 version = "0.1.0"
-description = ""
+description = "A simple tool to comment out packages not used in a latex document"
 authors = ["notPlancha <andre.plancha@hotmail.com>"]
 readme = "README.md"
+homepage = "https://github.com/notPlancha/STYGTFO"
 
 [tool.poetry.dependencies]
 python = "^3.11"
