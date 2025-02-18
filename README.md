@@ -26,3 +26,8 @@ pip install --user stygtfo
 You will need the same requirements as [diff-pdf-visually](https://github.com/bgeron/diff-pdf-visually#how-to-install-this), which on Windows is ImageMagick and Poppler. You can get them on chocolatey too.
 
 I don't know if the `--user` flag is actually needed, but I had some problems with it, so I recommend using it (except if you're installing it in a virtualenv).
+
+You can also run it directly with, for example, `uv`.
+```bash
+uvx stygtfo # or uv tool run stygtfo
+```
